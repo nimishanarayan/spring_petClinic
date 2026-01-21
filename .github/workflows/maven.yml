@@ -30,4 +30,5 @@ jobs:
 
       - name: Build with Maven
         shell: cmd
-        run: mvn.cmd -B package
+        run: '"C:\Program Files\Apache\Maven\apache-maven-3.9.12\bin\mvn.cmd" -B package --file pom.xml'
+  
